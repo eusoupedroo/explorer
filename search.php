@@ -15,6 +15,8 @@ $page = isset($_GET["page"]) ? $_GET["page"] : 1;
 <head>
 	<meta charset="UTF-8">
 	<title>Explorer</title>
+	<!-- Fancybox CSS Link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
 	<!--CSS Link -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<!--Import the jQuery File to ajax function -->
@@ -139,6 +141,9 @@ $page = isset($_GET["page"]) ? $_GET["page"] : 1;
 			</div>
 		</div>
 	</div>		
+	<!-- JQuery Fancybox Library Link -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+	<!-- JQuery Masonry Library Link -->
 	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 	<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
